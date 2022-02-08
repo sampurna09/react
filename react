@@ -1,0 +1,11 @@
+===============================
+npx create-react-app my-app
+cd my-app
+npm start
+=============================
+npm install bootstrap --save
+in index.js import 'bootstrap/dist/css/bootstrap.min.css'
+=============================
+rest api call
+npm install axios
+==============================
