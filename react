@@ -1,11 +1,22 @@
-===============================
+==============INITIAL=================
 npx create-react-app my-app
 cd my-app
 npm start
-=============================
+=============BOOTSTRAP================
 npm install bootstrap --save
-in index.js import 'bootstrap/dist/css/bootstrap.min.css'
-=============================
-rest api call
+npm install bootstrap reactstrap
+import 'bootstrap/dist/css/bootstrap.min.css'  --in index.js
+then to use button import{Button} from "reactstrap";  **reactstrap.github.io***
+=============FOR-NOTICE================
+npm install react-toastify
+import "react-toastify/dist/ReactToastify.css"  --in index.js
+import {ToastContainer, toast} from "react-toastify";
+============REST-API-CALL========================
 npm install axios
-==============================
+=============TO-IMPORT=================
+install Simple React Snippets
+==============REACT-ROUTER-DOM=========================
+npm install react-router-dom
+import {BrowserRouter as Router , Route } from "react-router-dom";
+https://www.youtube.com/watch?v=TjnWtDWFZFc
+2:16
